@@ -1,0 +1,176 @@
+/* Global Styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    background-color: #f4f6f9;
+    color: #333;
+    font-size: 1.1rem;
+    line-height: 1.6;
+    padding: 20px;
+}
+
+.resume-container {
+    max-width: 1000px;
+    margin: 0 auto;
+    background-color: #fff;
+    padding: 40px;
+    border-radius: 10px;
+    box-shadow: 0 4px 16px rgba(0, 0, 0, 0.1);
+}
+
+/* Header Section */
+header {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+header h1 {
+    font-size: 3.2rem;
+    color: #4e73df;
+    font-weight: 600;
+    letter-spacing: 1px;
+}
+
+header .highlight {
+    color: #6c63ff;
+}
+
+header .location,
+header .contact,
+header .links {
+    font-size: 1.1rem;
+    color: #666;
+    margin: 8px 0;
+}
+
+header .contact a {
+    text-decoration: none;
+    color: #6c63ff;
+}
+
+header .links a {
+    background-color: #6c63ff;
+    color: #fff;
+    padding: 10px 15px;
+    border-radius: 5px;
+    text-decoration: none;
+    font-size: 1rem;
+    margin: 5px;
+}
+
+header .links a:hover {
+    background-color: #4e73df;
+}
+
+/* Section Title Styles */
+section h2 {
+    font-size: 2rem;
+    color: #333;
+    margin-bottom: 15px;
+    position: relative;
+}
+
+section h2 i {
+    font-size: 1.6rem;
+    color: #6c63ff;
+    margin-right: 10px;
+}
+
+section h2::after {
+    content: '';
+    position: absolute;
+    bottom: -8px;
+    left: 0;
+    width: 50px;
+    height: 2px;
+    background-color: #6c63ff;
+}
+
+/* Content Section Styles */
+section p,
+section ul {
+    font-size: 1.1rem;
+    color: #666;
+    margin-bottom: 20px;
+}
+
+section ul {
+    list-style: none;
+}
+
+section ul li {
+    margin-bottom: 10px;
+}
+
+/* Links */
+a {
+    color: #6c63ff;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* Styling for Resume Content */
+.resume-container section {
+    margin-bottom: 30px;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    header h1 {
+        font-size: 2.5rem;
+    }
+
+    section h2 {
+        font-size: 1.8rem;
+    }
+
+    .resume-container {
+        padding: 20px;
+    }
+}
+
+/* Additional Styles for Better Visual Appeal */
+header .contact i, 
+header .location i {
+    margin-right: 8px;
+}
+
+header .btn {
+    margin-top: 10px;
+}
+
+/* Professional Project and Certification Styling */
+ul li {
+    font-size: 1.1rem;
+    color: #333;
+}
+
+section .education p,
+section .skills ul li,
+section .projects ul li,
+section .certifications ul li {
+    color: #444;
+}
+
+section .education p strong,
+section .skills ul li strong,
+section .projects ul li strong,
+section .certifications ul li strong {
+    font-weight: 600;
+}
+
+/* Final Styling Adjustments */
+.resume-container {
+    background-color: #fff;
+    padding: 40px;
+    border-radius: 10px;
+    box-shadow: 0 4px 16px rgba(0, 0, 0, 0.1);
+}
