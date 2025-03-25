@@ -27,3 +27,7 @@ I built a modern and interactive portfolio website to highlight my projects, ski
 This project demonstrates my expertise in HTML, CSS, JavaScript, and UI/UX design, emphasizing my ability to create aesthetically pleasing and functional web applications.
 
 OUTPUT:-
+![Image](https://github.com/user-attachments/assets/52d568a1-50b3-46ff-a729-55ab7f66b4e2)
+![Image](https://github.com/user-attachments/assets/4760e66f-2caa-4dd2-8734-0b1806ef0146)
+![Image](https://github.com/user-attachments/assets/7905726a-c372-4633-ad4f-a141a0de8feb)
+![Image](https://github.com/user-attachments/assets/6aa98e6c-c5f7-4257-a6f8-0995847f9139)
